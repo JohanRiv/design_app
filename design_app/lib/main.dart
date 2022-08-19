@@ -16,13 +16,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: 'home',
+      initialRoute: 'tab',
       routes: {
         'tab': (context) => TabScreen(),
-        // 'home': (context) => HomeScreen(),
-        // 'settings': (context) => SettingsScreen(),
-        // 'search': (context) => SearchScreen(),
-        // 'trends': (context) => TrendsScreen()
+        'home': (context) => HomeScreen(),
+        'settings': (context) => SettingsScreen(),
+        'search': (context) => SearchScreen(),
+        'trends': (context) => TrendsScreen()
       },
     );
   }

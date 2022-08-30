@@ -18,11 +18,11 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: 'tab',
       routes: {
-        'tab': (context) => TabScreen(),
-        'home': (context) => HomeScreen(),
-        'settings': (context) => SettingsScreen(),
-        'search': (context) => SearchScreen(),
-        'trends': (context) => TrendsScreen()
+        'tab': (context) => const TabScreen(),
+        'home': (context) => const HomeScreen(),
+        'settings': (context) => const SettingsScreen(),
+        'search': (context) => const SearchScreen(),
+        'trends': (context) => const TrendsScreen()
       },
     );
   }

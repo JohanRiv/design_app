@@ -1,4 +1,5 @@
 import 'package:design_app/themes/themes.dart';
+import 'package:design_app/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -86,7 +87,8 @@ class HomeScreen extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                           fontSize: 15),
                     ),
-                  )
+                  ),
+                  SongCardWidget()
                 ],
               ),
             )

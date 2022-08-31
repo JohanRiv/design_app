@@ -1,6 +1,8 @@
 # design_app
 
-A new Flutter project.
+A new Flutter project to practice the use of differents widgets for app design and the use of Providers, http, FutureBuilders and Delegate, this project consume the API from Deezer (https://developers.deezer.com/api/).
+
+The project design is inspire from Music Player Mobile App UI Kit by Betush (https://www.uplabs.com/posts/music-player-mobile-app-ui-kit-de320411-9ca4-481f-a56a-885c7176394a).
 
 ## Getting Started
 

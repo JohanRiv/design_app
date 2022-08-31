@@ -71,7 +71,7 @@ class HomeScreen extends StatelessWidget {
               width: double.infinity,
               // height: 900,
               decoration: const BoxDecoration(
-                  color: PrimaryTheme.secondaryLight,
+                  color: PrimaryTheme.primaryLight,
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(20),
                       topRight: Radius.circular(20))),
@@ -88,7 +88,18 @@ class HomeScreen extends StatelessWidget {
                           fontSize: 15),
                     ),
                   ),
-                  SongCardWidget()
+                  SongCardWidget(),
+                  Padding(
+                    padding: EdgeInsets.only(top: 10, left: 20, bottom: 20),
+                    child: Text(
+                      'Popular this week',
+                      style: TextStyle(
+                          color: PrimaryTheme.primaryDark,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15),
+                    ),
+                  ),
+                  SongListWidget(),
                 ],
               ),
             )

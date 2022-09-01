@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: const [
                       Text(
-                        'Good Evening, Elon',
+                        'Good Evening, Elisa',
                         style: TextStyle(
                             color: PrimaryTheme.primaryLight,
                             fontWeight: FontWeight.bold,

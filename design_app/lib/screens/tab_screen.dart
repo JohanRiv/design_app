@@ -38,7 +38,8 @@ class TabScreen extends StatelessWidget {
                         color: PrimaryTheme.secondaryDark,
                       )),
                   IconButton(
-                      onPressed: () => Navigator.pushNamed(context, 'search'),
+                      onPressed: () => showSearch(
+                          context: context, delegate: SearchScreen()),
                       icon: const Icon(
                         Icons.search_outlined,
                         color: PrimaryTheme.secondaryDark,

@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
         'tab': (context) => const TabScreen(),
         'home': (context) => const HomeScreen(),
         'settings': (context) => const SettingsScreen(),
-        'search': (context) => const SearchScreen(),
         'trends': (context) => const TrendsScreen()
       },
     );

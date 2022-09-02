@@ -13,15 +13,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Design App Demo 1',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       initialRoute: 'tab',
       routes: {
         'tab': (context) => const TabScreen(),
         'home': (context) => const HomeScreen(),
         'settings': (context) => const SettingsScreen(),
-        'trends': (context) => const TrendsScreen()
+        'trends': (context) => const TrendsScreen(),
+        'song': (context) => const SongScreen(),
+        'album': (context) => const AlbumScreen(),
       },
     );
   }

@@ -70,7 +70,6 @@ class TrendsScreen extends StatelessWidget {
               ),
               Container(
                 width: double.infinity,
-                // height: 900,
                 decoration: const BoxDecoration(
                     color: PrimaryTheme.secondaryLight,
                     borderRadius: BorderRadius.only(

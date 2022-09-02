@@ -1,3 +1,5 @@
+export 'package:design_app/screens/album_screen.dart';
+export 'package:design_app/screens/song_screen.dart';
 export 'package:design_app/screens/home_screen.dart';
 export 'package:design_app/screens/search_screen.dart';
 export 'package:design_app/screens/settings_screen.dart';
